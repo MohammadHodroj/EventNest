@@ -1,9 +1,12 @@
-# Ignore .NET specific files
-bin/
-obj/
+# Ignore Visual Studio temporary files, build results, and
+# folder config files
+*.log
+*.tlog
+*.vspscc
 .vs/
-*.user
+[Bb]in/
+[Oo]bj/
 *.suo
-*.pdb
-*.cache
-appsettings.Development.json
+*.user
+*.userosscache
+*.sln.docstates
